@@ -51,4 +51,6 @@ int main()
   calculatedFrequency = (referenceFrequency * pow(2, octave) * pow(2, fractionAmount));
   calculatedWavelength = ((speedOfSound / calculatedFrequency) * 100);
   cout << "Note: C8; nu: 8; k: 0; frequency: " << calculatedFrequency << "Hz; wavelength: " << calculatedWavelength << " cm" << endl;
+  
+  return 0;
 }
